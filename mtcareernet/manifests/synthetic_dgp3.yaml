@@ -1,0 +1,6 @@
+schema_version: 0.9
+n_per_replica: 8000
+n_replicas: 100
+seed_base: 2
+generator: mtcareernet.data.synthesize.dgp_three
+notes: intersectional group-shift regime; A1=gender, A2=first_gen.

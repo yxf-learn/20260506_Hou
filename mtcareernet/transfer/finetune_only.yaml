@@ -1,0 +1,3 @@
+lambda_max: 0.0
+freeze_encoder: true
+fine_tune_layers: [heads, fusion]

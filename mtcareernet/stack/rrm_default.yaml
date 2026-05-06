@@ -1,0 +1,6 @@
+horizon: 5
+omega: [0.25, 0.40, 0.20, 0.15]
+mu_c: 1.0
+L_u: 1.0
+proximal_eta: 1.0
+proximal_decay: 0.5

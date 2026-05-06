@@ -1,0 +1,3 @@
+# crosswalk version 2024.1; locked-in for replications
+# fields: major_code, occ_code, affinity ∈ [0,1]
+# affinity below 0.30 treated as non-aligned for y_mj

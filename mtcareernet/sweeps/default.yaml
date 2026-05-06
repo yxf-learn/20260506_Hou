@@ -1,0 +1,10 @@
+hyperband:
+  R: 81
+  eta: 3
+search_space:
+  fairness.beta:    {type: choice, values: [0.0, 0.25, 0.5, 1.0, 2.0, 3.0]}
+  encoder.transformer.n_layers: {type: int, low: 2, high: 6}
+  encoder.transformer.n_heads:  {type: choice, values: [4, 8]}
+  encoder.rgcn.n_layers:        {type: int, low: 1, high: 3}
+  training.lr:      {type: loguniform, low: 1.0e-5, high: 1.0e-3}
+  cfg.d_model:      {type: choice, values: [64, 128, 256]}

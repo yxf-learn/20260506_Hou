@@ -1,0 +1,22 @@
+_target_: mtcareernet.models.MTCareerNet
+cfg:
+  n_cat: 8
+  n_num: 24
+  cat_card: [32, 64, 4, 6, 3, 3, 3, 8]
+  d_model: 128
+  d_graph: 64
+  n_relations: 4
+  use_dann: true
+  n_domains: 4
+encoder:
+  transformer:
+    n_layers: 4
+    n_heads: 8
+    ffn_mult: 4
+    dropout: 0.10
+  rgcn:
+    n_layers: 2
+    hidden: 64
+    dropout: 0.10
+  fusion:
+    type: concat_ln

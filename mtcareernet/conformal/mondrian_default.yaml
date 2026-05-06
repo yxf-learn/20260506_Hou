@@ -1,0 +1,4 @@
+alpha: 0.10
+min_per_cell: 30
+groups: ["gender", "first_generation", "rural_origin"]
+intersectional: true

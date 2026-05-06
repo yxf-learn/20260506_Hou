@@ -1,0 +1,7 @@
+defaults: [base]
+# variant: ablation_no_graph
+encoder:
+  rgcn:
+    n_layers: 0
+cfg:
+  d_graph: 0

@@ -1,0 +1,4 @@
+_target_: mtcareernet.data.synthesize.dgp_three
+n: 8000
+p: 40
+seed: 2
