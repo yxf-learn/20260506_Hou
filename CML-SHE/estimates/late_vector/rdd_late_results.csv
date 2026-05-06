@@ -1,0 +1,4 @@
+outcome,tau_conventional,tau_bias_corrected,se_robust,ci_lo,ci_hi,bw_mse,n_left,n_right
+y1_gpa_mean,0.156,0.148,0.03,0.089,0.207,0.92,3104,3110
+y2_retained,0.088,0.083,0.021,0.041,0.125,0.87,3252,3246
+y6_completed,0.067,0.062,0.017,0.028,0.096,0.94,3058,3044

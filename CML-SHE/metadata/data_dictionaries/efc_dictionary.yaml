@@ -1,0 +1,23 @@
+# EFC data dictionary
+fields:
+  student_id:
+    type: string
+    pattern: "^S\\d{4}\\d{5}$"
+    nullable: false
+  cohort:
+    type: integer
+    range: [2013, 2018]
+  efc_dollars:
+    type: integer
+    unit: USD
+    range: [0, 99999]
+    winsorised: true
+  need_index:
+    type: float
+    range: [0.0, 10.0]
+    precision: 3
+    description: "Running variable = efc_dollars / 6800, clipped to [0.1, 9.9]"
+  eligible_flag:
+    type: integer
+    values: [0, 1]
+    description: "1 if need_index <= 3.0"

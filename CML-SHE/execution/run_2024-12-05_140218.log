@@ -1,0 +1,4 @@
+[2024-12-05 14:02:18 INFO]  Revision run: R1.3 placebo cutoffs
+[2024-12-05 14:02:19 INFO]  Placebo cutoff R=2.5: tau_bc=0.008 p=0.62 (OK, null)
+[2024-12-05 14:02:23 INFO]  Placebo cutoff R=3.5: tau_bc=0.011 p=0.48 (OK, null)
+[2024-12-05 14:02:27 INFO]  Revision run complete

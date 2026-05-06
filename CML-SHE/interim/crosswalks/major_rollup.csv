@@ -1,0 +1,34 @@
+starting_major,major_category,bls_sector
+Biology,STEM,Life-Sci
+Chemistry,STEM,Phys-Sci
+Physics,STEM,Phys-Sci
+Mathematics,STEM,Math-Stat
+Computer Science,STEM,Tech
+Mechanical Engineering,STEM,Eng
+Electrical Engineering,STEM,Eng
+Civil Engineering,STEM,Eng
+Biomedical Engineering,STEM,Eng
+Statistics,STEM,Math-Stat
+Accounting,Business,Finance
+Finance,Business,Finance
+Marketing,Business,Commerce
+Management,Business,Commerce
+Economics-Bus,Business,Commerce
+English,Humanities,Language
+History,Humanities,Social
+Philosophy,Humanities,Theory
+Spanish,Humanities,Language
+Art History,Humanities,Creative
+Psychology,Social Sciences,Behavior
+Sociology,Social Sciences,Behavior
+Political Science,Social Sciences,Civic
+Economics,Social Sciences,Commerce
+Anthropology,Social Sciences,Behavior
+Nursing,Health,Clinical
+Pre-Med,Health,Clinical
+Public Health,Health,Admin
+Kinesiology,Health,Clinical
+Education,Other,Teaching
+Communications,Other,Media
+General Studies,Other,Undecl
+Undeclared,Other,Undecl

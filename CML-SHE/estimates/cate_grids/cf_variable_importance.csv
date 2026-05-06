@@ -1,0 +1,9 @@
+feature,importance
+first_gen,0.38
+hs_gpa,0.26
+rural_origin,0.14
+test_percentile,0.1
+cohort,0.05
+starting_major,0.04
+gender,0.02
+institution_type,0.01
