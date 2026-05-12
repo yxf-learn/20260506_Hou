@@ -1,0 +1,7 @@
+kernel: triangular
+p_main: 1
+q_bias: 2
+selector: cct_mse
+rho: 1.0
+vce: hc3
+cluster_var: null

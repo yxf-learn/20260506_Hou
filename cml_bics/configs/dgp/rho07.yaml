@@ -1,0 +1,19 @@
+scenario: rho07
+cutoff: 75.0
+covariates:
+- age_at_grad
+- cum_gpa
+- first_gen
+- rural_origin
+- low_income_q
+- internship_months
+- high_demand_field
+kernel: triangular
+bandwidth_selector: cct_mse
+n: 5000
+M: 200
+tauE_true: 0.16
+rho_outcomes:
+- 0.7
+- 0.7
+- 0.7

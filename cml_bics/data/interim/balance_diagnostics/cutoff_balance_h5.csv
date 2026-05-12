@@ -1,0 +1,9 @@
+variable,mean_below,mean_above,smd,rdd_jump_pvalue
+age_at_grad,24.8591,24.9125,0.0288,0.265
+cum_gpa,2.9866,2.9765,-0.0249,0.185
+first_gen,0.3212,0.2321,-0.1988,0.209
+rural_origin,0.1679,0.1964,0.0735,0.209
+low_income_q,0.3796,0.375,-0.0094,0.395
+internship_months,2.5036,1.9286,-0.4074,0.711
+female,0.4818,0.6607,0.3654,0.777
+high_demand_field,0.2409,0.25,0.0211,0.365

@@ -1,0 +1,70 @@
+{
+  "risk_score": {
+    "type": "cont",
+    "missing_pct": 0.0
+  },
+  "eligible_z": {
+    "type": "bin",
+    "missing_pct": 0.0
+  },
+  "enrolled_d": {
+    "type": "bin",
+    "missing_pct": 0.0
+  },
+  "y_match_6m": {
+    "type": "cont",
+    "missing_pct": 3.2
+  },
+  "y_quality_6m": {
+    "type": "bin",
+    "missing_pct": 2.8
+  },
+  "y_stability_12m": {
+    "type": "bin",
+    "missing_pct": 4.1
+  },
+  "first_gen": {
+    "type": "bin",
+    "missing_pct": 0.6
+  },
+  "rural_origin": {
+    "type": "bin",
+    "missing_pct": 0.4
+  },
+  "low_income_q": {
+    "type": "bin",
+    "missing_pct": 1.1
+  },
+  "high_demand_field": {
+    "type": "bin",
+    "missing_pct": 0.0
+  },
+  "cum_gpa": {
+    "type": "cont",
+    "missing_pct": 0.2
+  },
+  "internship_months": {
+    "type": "int",
+    "missing_pct": 1.7
+  },
+  "age_at_grad": {
+    "type": "cont",
+    "missing_pct": 0.0
+  },
+  "female": {
+    "type": "bin",
+    "missing_pct": 0.1
+  },
+  "field_of_study": {
+    "type": "cat",
+    "missing_pct": 0.0
+  },
+  "institution_id": {
+    "type": "cat",
+    "missing_pct": 0.0
+  },
+  "cohort_year": {
+    "type": "int",
+    "missing_pct": 0.0
+  }
+}

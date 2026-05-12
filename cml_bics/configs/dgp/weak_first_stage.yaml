@@ -1,0 +1,16 @@
+scenario: weak_first_stage
+cutoff: 75.0
+covariates:
+- age_at_grad
+- cum_gpa
+- first_gen
+- rural_origin
+- low_income_q
+- internship_months
+- high_demand_field
+kernel: triangular
+bandwidth_selector: cct_mse
+n: 5000
+M: 200
+tauE_true: 0.16
+first_stage_jump: 0.25

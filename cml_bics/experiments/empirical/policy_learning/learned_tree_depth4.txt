@@ -1,0 +1,15 @@
+node 1: root  (n=21618, mean_cate=0.082)
+  node 2: first_gen=1  (n=6053, mean_cate=0.127)
+    node 4: rural_origin=1  (n=1599, mean_cate=0.143)
+      node 8: cum_gpa>=2.95  (n=1102, mean_cate=0.151)  ASSIGN=1
+      node 9: cum_gpa<2.95   (n=497,  mean_cate=0.125)  ASSIGN=1
+    node 5: rural_origin=0  (n=4454, mean_cate=0.121)
+      node 10: high_demand_field=1 (n=1631, mean_cate=0.134) ASSIGN=1
+      node 11: high_demand_field=0 (n=2823, mean_cate=0.112) ASSIGN=1
+  node 3: first_gen=0  (n=15565, mean_cate=0.064)
+    node 6: rural_origin=1  (n=2422, mean_cate=0.082)
+      node 12: low_income_q=1 (n=896, mean_cate=0.095) ASSIGN=1
+      node 13: low_income_q=0 (n=1526, mean_cate=0.075) ASSIGN=0
+    node 7: rural_origin=0  (n=13143, mean_cate=0.057)
+      node 14: high_demand_field=1 (n=4602, mean_cate=0.071) ASSIGN=0
+      node 15: high_demand_field=0 (n=8541, mean_cate=0.050) ASSIGN=0

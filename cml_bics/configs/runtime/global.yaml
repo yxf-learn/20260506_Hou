@@ -1,0 +1,11 @@
+project: cml_bics
+version: 0.4.1
+random_seed: 20240117
+n_jobs: 16
+logging:
+  level: INFO
+  rotation_mb: 32
+paths:
+  data: ./data
+  results: ./results
+  checkpoints: ./results/checkpoints

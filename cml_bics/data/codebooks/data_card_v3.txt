@@ -1,0 +1,17 @@
+DATA CARD  v3.2
+-----------------------------
+domain: HEI multi-institutional postgraduate panel
+coverage: 2018-2023 grad cohorts; 12m horizon to 2024
+deidentification: SHA-256 hashed graduate ids; salted per-quarter
+quality flags:
+  Q1: dedup pass
+  Q2: outlier winsorize at p99
+  Q3: ISCO crosswalk applied (2023-Q4 build)
+  Q4: cohort wage decile recomputed per field
+governance:
+  access: institutional approval, restricted
+  retention: 7y
+  audit: monthly
+versioning:
+  panel_v1 -> v2: institution_id remap
+  panel_v2 -> v3: feature_engineered rebuild, MI re-run
