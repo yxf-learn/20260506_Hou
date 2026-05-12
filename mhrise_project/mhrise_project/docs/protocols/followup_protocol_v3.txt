@@ -1,0 +1,6 @@
+Follow-up wave protocol
+=======================
+
+T1 = baseline + 6mo (+/- 14d). T2 = baseline + 12mo (+/- 21d).
+Attempt sequence: in-app -> email -> SMS -> portal banner.
+Attrition threshold for wave inclusion: >=2 instruments completed.

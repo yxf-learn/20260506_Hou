@@ -1,0 +1,6 @@
+{
+  "shrinkage_lambda": 0.18,
+  "cv_logloss": 0.391,
+  "sece_pre": 0.061,
+  "sece_post": 0.024
+}

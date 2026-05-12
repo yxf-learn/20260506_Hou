@@ -1,0 +1,5 @@
+release_id,release_date,artifact,owner,reviewer,status
+R-2024-001,2024-03-04,stage1_risk_v4,team,IRB,approved
+R-2024-002,2024-07-12,cate_v3,team,IRB,approved
+R-2024-003,2024-09-10,policy_v4_lambda1,team,IRB,approved
+R-2024-004,2024-11-02,annual_review,team,IRB,approved

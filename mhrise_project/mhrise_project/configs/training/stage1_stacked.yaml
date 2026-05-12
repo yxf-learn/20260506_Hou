@@ -1,0 +1,3 @@
+base_learners: [gbm, logreg_l2, dnn]
+meta: logistic_clipped
+folds: 5

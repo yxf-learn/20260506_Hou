@@ -1,0 +1,2 @@
+consent_levels: [survey_only, survey_admin, full_multimodal]
+revocation_grace_days: 14

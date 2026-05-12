@@ -1,0 +1,6 @@
+Digital behavioural module - SOP
+================================
+
+Aggregation cadence: monthly tensors only; no raw event-level retention beyond 30 days.
+Features: screen_time mean/sd, location entropy, radius of gyration, comm volume + latency, step count, sleep onset variance, missingness pct.
+Noise mechanism: Gaussian, epsilon configurable (see configs/privacy/dp_budget.yaml).

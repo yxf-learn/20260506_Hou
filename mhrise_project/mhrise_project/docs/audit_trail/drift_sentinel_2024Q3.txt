@@ -1,0 +1,6 @@
+Drift sentinel report Q3 2024
+=============================
+
+Feature drift (KL vs baseline epoch): mean=0.041, max=0.087 (screen_time_z).
+Label drift (PHQ9 base rate shift): +0.6 pts (within band).
+No action triggered.

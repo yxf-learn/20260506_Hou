@@ -1,0 +1,7 @@
+[2024-07-12T09:32:04] [INFO] MC replications: M=200, n=5000
+[2024-07-12T09:32:10] [INFO] Scenario=baseline: mhrise rmse=0.148, drcf rmse=0.158
+[2024-07-12T09:32:16] [INFO] Scenario=weak_overlap: mhrise rmse=0.186
+[2024-07-12T09:32:21] [INFO] Scenario=strong_het: mhrise rmse=0.161
+[2024-07-12T09:32:28] [INFO] Scenario=high_dim: mhrise rmse=0.169
+[2024-07-12T09:32:37] [INFO] Scenario=missing_mod: mhrise rmse=0.178
+[2024-07-12T09:32:42] [INFO] Welfare regret bound check: empirical/theoretical=0.91

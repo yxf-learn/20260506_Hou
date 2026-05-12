@@ -1,0 +1,6 @@
+ntree: 2000
+min_node: 10
+mtry: 7
+honest: true
+subsample: 0.5
+ci: ij

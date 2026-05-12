@@ -1,0 +1,7 @@
+Data Use Agreement (template)
+=============================
+
+Parties: [University] and [Investigator].
+Purpose: research use only; no commercial redistribution.
+Retention: 7 years after last analysis, then secure destruction.
+Subprocessors: cloud storage vendor (BAA on file).

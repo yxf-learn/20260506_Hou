@@ -1,0 +1,189 @@
+{
+  "version": "12.3",
+  "features": [
+    {
+      "name": "phq9_baseline",
+      "dtype": "int8",
+      "range": [
+        0,
+        27
+      ],
+      "modality": "survey",
+      "missing_pct": 0.012
+    },
+    {
+      "name": "gad7_baseline",
+      "dtype": "int8",
+      "range": [
+        0,
+        21
+      ],
+      "modality": "survey",
+      "missing_pct": 0.014
+    },
+    {
+      "name": "mspss_total_z",
+      "dtype": "float32",
+      "range": [
+        -3.5,
+        3.5
+      ],
+      "modality": "survey",
+      "missing_pct": 0.031
+    },
+    {
+      "name": "pss10_z",
+      "dtype": "float32",
+      "range": [
+        -3.5,
+        3.5
+      ],
+      "modality": "survey",
+      "missing_pct": 0.028
+    },
+    {
+      "name": "sleep_z",
+      "dtype": "float32",
+      "range": [
+        -3.5,
+        3.5
+      ],
+      "modality": "survey",
+      "missing_pct": 0.041
+    },
+    {
+      "name": "advisor_ratio_log",
+      "dtype": "float32",
+      "range": [
+        0,
+        3.4
+      ],
+      "modality": "administrative",
+      "missing_pct": 0.002
+    },
+    {
+      "name": "program_stage_ord",
+      "dtype": "int8",
+      "range": [
+        1,
+        5
+      ],
+      "modality": "administrative",
+      "missing_pct": 0.0
+    },
+    {
+      "name": "gpa_cumulative",
+      "dtype": "float32",
+      "range": [
+        2.0,
+        4.0
+      ],
+      "modality": "administrative",
+      "missing_pct": 0.016
+    },
+    {
+      "name": "publications_total",
+      "dtype": "int8",
+      "range": [
+        0,
+        15
+      ],
+      "modality": "administrative",
+      "missing_pct": 0.003
+    },
+    {
+      "name": "leave_flag",
+      "dtype": "int8",
+      "range": [
+        0,
+        1
+      ],
+      "modality": "administrative",
+      "missing_pct": 0.0
+    },
+    {
+      "name": "screen_time_z",
+      "dtype": "float32",
+      "range": [
+        -3.5,
+        3.5
+      ],
+      "modality": "digital",
+      "missing_pct": 0.062
+    },
+    {
+      "name": "loc_entropy_z",
+      "dtype": "float32",
+      "range": [
+        -3.5,
+        3.5
+      ],
+      "modality": "digital",
+      "missing_pct": 0.067
+    },
+    {
+      "name": "comm_volume_z",
+      "dtype": "float32",
+      "range": [
+        -3.5,
+        3.5
+      ],
+      "modality": "digital",
+      "missing_pct": 0.071
+    },
+    {
+      "name": "step_count_z",
+      "dtype": "float32",
+      "range": [
+        -3.5,
+        3.5
+      ],
+      "modality": "digital",
+      "missing_pct": 0.058
+    },
+    {
+      "name": "underrep",
+      "dtype": "int8",
+      "range": [
+        0,
+        1
+      ],
+      "modality": "sensitive",
+      "missing_pct": 0.0
+    }
+  ],
+  "treatment": {
+    "name": "treatment_D",
+    "dtype": "int8",
+    "range": [
+      0,
+      1
+    ]
+  },
+  "outcomes": [
+    {
+      "name": "phq9_followup",
+      "dtype": "int8",
+      "range": [
+        0,
+        27
+      ]
+    },
+    {
+      "name": "gad7_followup",
+      "dtype": "int8",
+      "range": [
+        0,
+        21
+      ]
+    },
+    {
+      "name": "persistence_eoy",
+      "dtype": "int8",
+      "range": [
+        0,
+        1
+      ]
+    }
+  ]
+}

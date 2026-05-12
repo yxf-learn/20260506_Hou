@@ -1,0 +1,13 @@
+[2024-07-12T09:32:02] [INFO] Loading cohort_consolidated_v7.parquet (n=14286, p=15)
+[2024-07-12T09:32:09] [INFO] Stratified 5-fold split: strata=(cohort_year, underrep), seed=20240117
+[2024-07-12T09:32:18] [INFO] Fold 1: GBM train logloss=0.398, val logloss=0.412
+[2024-07-12T09:32:25] [INFO] Fold 2: GBM train logloss=0.395, val logloss=0.418
+[2024-07-12T09:32:31] [INFO] Fold 3: GBM train logloss=0.401, val logloss=0.410
+[2024-07-12T09:32:37] [INFO] Fold 4: GBM train logloss=0.399, val logloss=0.415
+[2024-07-12T09:32:46] [INFO] Fold 5: GBM train logloss=0.397, val logloss=0.413
+[2024-07-12T09:32:52] [INFO] DNN early stop at epoch 87/120 (patience 12)
+[2024-07-12T09:32:56] [INFO] Stack meta-learner weights: [0.46, 0.21, 0.33]
+[2024-07-12T09:33:06] [INFO] OOF AUC=0.857, OOF logloss=0.394
+[2024-07-12T09:33:13] [INFO] Isotonic shrinkage lambda=0.18 (cv-selected)
+[2024-07-12T09:33:17] [INFO] Subgroup ECE: A0=0.018, A1=0.024 (pooled=0.019)
+[2024-07-12T09:33:28] [INFO] Persisting models/stage1_risk/stacked/meta_learner.pkl

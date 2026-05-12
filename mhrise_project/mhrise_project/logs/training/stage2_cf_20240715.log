@@ -1,0 +1,10 @@
+[2024-07-12T09:32:00] [INFO] Cross-fit nuisance: K=5
+[2024-07-12T09:32:08] [INFO] mu_S_d0: xgb 1100 trees, oof_rmse=4.81
+[2024-07-12T09:32:15] [INFO] mu_S_d1: xgb 1100 trees, oof_rmse=4.62
+[2024-07-12T09:32:21] [INFO] mu_X_d0: xgb 1100 trees, oof_rmse=4.07
+[2024-07-12T09:32:30] [INFO] mu_X_d1: xgb 1100 trees, oof_rmse=3.84
+[2024-07-12T09:32:36] [INFO] e(X): xgb 900 trees, oof_logloss=0.484; trim eta=0.07
+[2024-07-12T09:32:43] [INFO] Forest phq9: 2000 honest trees, min_node=10
+[2024-07-12T09:32:50] [INFO] Forest gad7: 2000 honest trees, min_node=10
+[2024-07-12T09:32:59] [INFO] Forest persist: 2000 honest trees, min_node=10
+[2024-07-12T09:33:05] [INFO] IJ variance estimator constructed

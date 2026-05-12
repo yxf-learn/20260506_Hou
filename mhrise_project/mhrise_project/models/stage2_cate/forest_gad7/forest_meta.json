@@ -1,0 +1,10 @@
+{
+  "n_trees": 2000,
+  "subsample": 0.5,
+  "min_node": 10,
+  "mtry": 7,
+  "alpha": 0.05,
+  "imbalance_penalty": 0.0,
+  "ci_method": "infinitesimal_jackknife",
+  "outcome": "gad7"
+}

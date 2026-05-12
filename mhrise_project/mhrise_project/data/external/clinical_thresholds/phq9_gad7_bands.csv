@@ -1,0 +1,9 @@
+instrument,band,lower,upper,clinical_threshold_flag
+PHQ-9,minimal,0,4,0
+PHQ-9,mild,5,9,0
+PHQ-9,moderate,10,14,1
+PHQ-9,mod-severe+,15,27,1
+GAD-7,minimal,0,4,0
+GAD-7,mild,5,9,0
+GAD-7,moderate,10,14,1
+GAD-7,severe,15,21,1
