@@ -1,0 +1,8 @@
+manifest: data/manifests/empirical.yaml
+n_total: 27583
+cohort_train: [2016, 2017, 2018, 2019]
+cohort_val:   [2020]
+cohort_test:  [2021, 2022]
+batch_size: 256
+num_workers: 8
+text_emb_path: data/cache/text_embed.parquet

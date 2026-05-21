@@ -1,0 +1,8 @@
+study_ref,domain,pooled_effect_g,n_studies,ci_lo,ci_hi
+Hofmann2012,CBT_dep_anx,-0.71,269,-0.79,-0.63
+Cuijpers2020,Psychotherapy_dep,-0.65,366,-0.71,-0.59
+Karyotaki2021,iCBT_dep,-0.42,39,-0.51,-0.33
+Regehr2013,Univ_stress,-0.3,24,-0.4,-0.2
+Evans2018,GradMH_prev,,1,,
+Levecque2017,PhD_workorg,,1,,
+Satinsky2021,PhD_metaanalysis,,16,,

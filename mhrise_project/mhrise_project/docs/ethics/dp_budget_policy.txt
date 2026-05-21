@@ -1,0 +1,6 @@
+Differential privacy budget policy
+==================================
+
+Per-cohort epsilon budget: 1.0 (digital module releases only).
+Composition tracked via the moments accountant.
+Releases over budget require a written exception from the IRB chair.

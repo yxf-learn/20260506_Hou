@@ -1,0 +1,22 @@
+[2024-10-21 09:14:02 INFO]  Starting run_all.sh
+[2024-10-21 09:14:03 INFO]  Step 1/6 - ingest
+[2024-10-21 09:14:07 INFO]  01_read_admissions.R: 18432 rows, 6 cohorts
+[2024-10-21 09:14:07 INFO]  Step 2/6 - clean
+[2024-10-21 09:14:11 WARN]  02_clean_efc.R: 2 rows with missing EFC dropped
+[2024-10-21 09:14:11 INFO]  02b_dedup_students.R: 14 duplicate IDs removed
+[2024-10-21 09:14:12 INFO]  02c_fix_cohort_encoding.R: 3 records relabelled
+[2024-10-21 09:14:12 INFO]  Step 3/6 - merge
+[2024-10-21 09:14:19 INFO]  Master frame: 18416 rows, 28 cols
+[2024-10-21 09:14:19 INFO]  Step 4/6 - RDD
+[2024-10-21 09:14:23 INFO]  rdrobust y1_gpa_mean: tau_bc=0.148 SE=0.030 CI=[0.089,0.207]
+[2024-10-21 09:14:26 INFO]  rdrobust y2_retained: tau_bc=0.083 SE=0.021 CI=[0.041,0.125]
+[2024-10-21 09:14:30 INFO]  rdrobust y6_completed: tau_bc=0.062 SE=0.017 CI=[0.028,0.096]
+[2024-10-21 09:14:31 INFO]  Stata cross-check within 0.003 of R, OK
+[2024-10-21 09:14:31 INFO]  Step 5/6 - causal forest + DML cross-check
+[2024-10-21 09:18:52 INFO]  grf causal_forest: 4000 trees, OOB RMSE 0.032
+[2024-10-21 09:21:14 INFO]  Variable importance: first_gen 0.38, hs_gpa 0.26, rural 0.14
+[2024-10-21 09:25:41 INFO]  DMLIV cross-check (econml): LATE=0.064 CI=[0.029,0.099]
+[2024-10-21 09:25:41 INFO]  Step 6/6 - policy tree + tables
+[2024-10-21 09:27:09 INFO]  policytree depth=4 fit; 8 terminal leaves
+[2024-10-21 09:27:12 INFO]  Tables written to 03_outputs/tables/
+[2024-10-21 09:27:12 INFO]  Pipeline completed in 13m10s

@@ -1,0 +1,23 @@
+defaults:
+  - data: empirical
+  - model: base
+  - training: adam_default
+  - fairness: beta_1
+  - transfer: dann_default
+  - conformal: mondrian_default
+  - stack: rrm_default
+  - logging: rich
+  - _self_
+
+run:
+  name: default-${now:%Y%m%d-%H%M%S}
+  out_dir: results/runs/${run.name}
+  seed: 20260219
+  device: cuda:0
+  amp: true
+
+hydra:
+  job:
+    chdir: false
+  run:
+    dir: ${run.out_dir}

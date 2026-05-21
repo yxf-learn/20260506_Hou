@@ -1,0 +1,8 @@
+Institutional Review Board summary
+==================================
+
+Protocol number: [REDACTED].
+Review category: expedited, then converted to full board after digital module addition.
+Last continuing review: 2023-11.
+Approved analyses: descriptive prevalence, predictive risk modelling, causal estimation under quasi-random uptake, capacity-constrained allocation.
+Not approved: re-identification, cross-institution linkage without separate DUA.

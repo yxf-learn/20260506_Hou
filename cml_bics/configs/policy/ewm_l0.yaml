@@ -1,0 +1,5 @@
+policy_class: tree
+depth: 4
+min_leaf: 50
+lambda_equity: 0.0
+budget_share: 0.4

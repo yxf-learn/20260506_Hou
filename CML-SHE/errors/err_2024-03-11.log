@@ -1,0 +1,5 @@
+[2024-03-11 16:42:01 ERROR] causal_forest: insufficient honest sample
+ in leaf (min.node.size=20 too small at n=4500). Fix: raised to 50.
+[2024-03-11 16:50:22 ERROR] policy_tree: memory exhaustion at depth=5
+ on 16 GB machine. Fix: reduced to depth=4 (and justified on
+ interpretability grounds; see methodology_notes/).

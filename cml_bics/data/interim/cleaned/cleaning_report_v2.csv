@@ -1,0 +1,10 @@
+step,rows_before,rows_after,flag_rate
+dedup_grad_id,22340,21984,0.0159
+drop_late_response,21984,21762,0.0101
+outlier_winsorize_match,21762,21618,0.0066
+logical_check_dates,21618,21618,0.0
+field_normalization,21618,21618,0.0
+gpa_scale_unify,21618,21618,0.0
+cohort_recode,21618,21618,0.0
+institution_join,21618,21618,0.0
+ms_indicator_align,21618,21618,0.0

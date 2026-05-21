@@ -1,0 +1,6 @@
+scheduler: slurm
+partition: compute
+cores_per_task: 8
+memory_gb: 32
+walltime_h: 12
+array_size: 200

@@ -1,0 +1,5 @@
+schema_version: 0.9
+n_per_replica: 8000
+n_replicas: 100
+seed_base: 0
+generator: mtcareernet.data.synthesize.dgp_one

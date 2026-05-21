@@ -1,0 +1,3 @@
+defaults: [base]
+# variant: ablation_no_conformal
+_pseudo: drop_conformal_head

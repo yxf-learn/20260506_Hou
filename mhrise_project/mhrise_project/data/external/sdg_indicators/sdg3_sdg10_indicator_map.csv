@@ -1,0 +1,7 @@
+indicator_code,label,baseline_2019,weight_in_composite
+SDG3.4.1,mortality_NCD_mental,,0.18
+SDG3.4.2,suicide_rate,,0.22
+SDG3.5.2,substance_use_disorder,,0.14
+SDG10.2.1,income_below_median_share,,0.16
+SDG10.3.1,reported_discrimination_share,,0.18
+SDG10.4.2,redistributive_policies_index,,0.12

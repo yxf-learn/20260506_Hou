@@ -1,0 +1,6 @@
+Source file: admissions_2017_extract_v2.xlsx
+Extracted:   2017-09-25 via Banner SIS query
+Rows:        3060
+Hash (SHA1): 2eec9f3c12d8bab7
+Extracted-By: registrar-office/data-request-2017-532
+Notes: 14 duplicate SSN issues resolved manually (see flagged_issues/).

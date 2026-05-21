@@ -1,0 +1,13 @@
+bandwidth,test,stat,se,p_value
+3,McCrary,0.343,0.312,0.446
+3,Cattaneo-Jansson-Ma,-0.371,0.295,0.371
+5,McCrary,0.311,0.306,0.411
+5,Cattaneo-Jansson-Ma,-0.338,0.273,0.841
+7,McCrary,0.185,0.296,0.391
+7,Cattaneo-Jansson-Ma,0.114,0.245,0.576
+10,McCrary,0.475,0.23,0.598
+10,Cattaneo-Jansson-Ma,0.116,0.284,0.368
+12,McCrary,0.658,0.269,0.325
+12,Cattaneo-Jansson-Ma,0.373,0.336,0.816
+15,McCrary,0.574,0.227,0.763
+15,Cattaneo-Jansson-Ma,-0.657,0.28,0.669

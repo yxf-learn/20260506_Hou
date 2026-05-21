@@ -1,0 +1,5 @@
+defaults: [base]
+# variant: ablation_no_tx
+encoder:
+  transformer:
+    n_layers: 0

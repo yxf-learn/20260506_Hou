@@ -1,0 +1,5 @@
+release_id,release_date,artifact,owner,reviewer,status
+R-2023-001,2023-03-12,stage1_risk_v3,team,IRB,approved
+R-2023-002,2023-06-04,cate_pilot_v1,team,IRB,approved
+R-2023-003,2023-09-21,policy_pilot_v2,team,IRB,approved_w_conditions
+R-2023-004,2023-12-09,policy_pilot_v3,team,IRB,approved

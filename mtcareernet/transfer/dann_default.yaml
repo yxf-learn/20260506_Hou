@@ -1,0 +1,3 @@
+lambda_max: 1.0
+ramp_gamma: 10.0
+n_domains: 4

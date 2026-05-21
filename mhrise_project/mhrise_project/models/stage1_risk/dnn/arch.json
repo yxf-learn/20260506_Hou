@@ -1,0 +1,34 @@
+{
+  "layers": [
+    {
+      "type": "dense",
+      "units": 128,
+      "act": "gelu",
+      "dropout": 0.2
+    },
+    {
+      "type": "dense",
+      "units": 64,
+      "act": "gelu",
+      "dropout": 0.15
+    },
+    {
+      "type": "dense",
+      "units": 32,
+      "act": "gelu",
+      "dropout": 0.1
+    },
+    {
+      "type": "dense",
+      "units": 1,
+      "act": "sigmoid"
+    }
+  ],
+  "optimizer": "adamw",
+  "lr": 0.0003,
+  "weight_decay": 1e-05,
+  "batch": 512,
+  "epochs": 120,
+  "early_stopping_patience": 12,
+  "loss": "focal_bce_g1.5"
+}

@@ -1,0 +1,15 @@
+{
+  "scenario": "baseline",
+  "n": 5000,
+  "M": 200,
+  "tauE_true": 0.16,
+  "cutoff": 75.0,
+  "kernel": "triangular",
+  "bandwidth_selector": "cct_mse",
+  "ml_learner": "gbm",
+  "folds": 5,
+  "trees": 2000,
+  "min_node_size": 12,
+  "honesty": true,
+  "timestamp": "2026-05-11T13:44:25.476452Z"
+}

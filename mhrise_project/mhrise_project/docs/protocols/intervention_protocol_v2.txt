@@ -1,0 +1,7 @@
+Brief CBT-based intervention protocol
+=====================================
+
+Four 50-minute counsellor-led sessions, weeks 0/2/4/6.
+iCBT homework module between sessions (15-25 minutes per module).
+Fidelity check: cognitive restructuring + behavioural activation + exposure planning + relapse map.
+Dose threshold for per-protocol analysis: >=3 of 4 sessions.

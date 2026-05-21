@@ -1,0 +1,9 @@
+Baseline intake protocol
+========================
+
+v4 (2023-08-19)
+
+1. Window: weeks -2 to +4 around academic year start.
+2. Instruments: PHQ-9, GAD-7, MSPSS, PSS-10, sleep diary (7-day).
+3. Modality consent split: survey-only / survey+admin / full-multimodal.
+4. Re-consent every 12 months; revocation honored within 14 days.

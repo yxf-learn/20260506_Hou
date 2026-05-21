@@ -1,0 +1,5 @@
+defaults: [base]
+# variant: ablation_gated
+encoder:
+  fusion:
+    type: gated

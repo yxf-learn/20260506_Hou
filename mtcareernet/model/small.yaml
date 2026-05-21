@@ -1,0 +1,7 @@
+defaults: [base]
+cfg:
+  d_model: 64
+  d_graph: 32
+encoder:
+  transformer: {n_layers: 2, n_heads: 4, ffn_mult: 2}
+  rgcn: {n_layers: 1, hidden: 32}

@@ -1,0 +1,50 @@
+[
+  {
+    "source": "admissions_2013_extract_v2.xlsx",
+    "received_from": "Office of Institutional Research",
+    "received_date": "2014-02-25",
+    "rows": 2948,
+    "md5": "293bcc8ab5893851cdbbeda8dfca7b25",
+    "notes": "Received via secure SFTP; PII columns dropped before ingest."
+  },
+  {
+    "source": "admissions_2014_extract_v2.xlsx",
+    "received_from": "Office of Institutional Research",
+    "received_date": "2015-02-20",
+    "rows": 3102,
+    "md5": "53653d3030dd5fc61d93f537d265ff72",
+    "notes": "Received via secure SFTP; PII columns dropped before ingest."
+  },
+  {
+    "source": "admissions_2015_extract_v2.xlsx",
+    "received_from": "Office of Institutional Research",
+    "received_date": "2016-02-14",
+    "rows": 3188,
+    "md5": "53a1d02b51c37486f3142a41336835bc",
+    "notes": "Received via secure SFTP; PII columns dropped before ingest."
+  },
+  {
+    "source": "admissions_2016_extract_v2.xlsx",
+    "received_from": "Office of Institutional Research",
+    "received_date": "2017-02-27",
+    "rows": 3074,
+    "md5": "6bf138f3aef27c219c9c9012b0421dab",
+    "notes": "Received via secure SFTP; PII columns dropped before ingest."
+  },
+  {
+    "source": "admissions_2017_extract_v2.xlsx",
+    "received_from": "Office of Institutional Research",
+    "received_date": "2018-02-16",
+    "rows": 3060,
+    "md5": "a77477bd6dd923432705038a09880588",
+    "notes": "Received via secure SFTP; PII columns dropped before ingest."
+  },
+  {
+    "source": "admissions_2018_extract_v2.xlsx",
+    "received_from": "Office of Institutional Research",
+    "received_date": "2019-02-18",
+    "rows": 3060,
+    "md5": "a291c6f205f42def92c16f81aece4189",
+    "notes": "Received via secure SFTP; PII columns dropped before ingest."
+  }
+]

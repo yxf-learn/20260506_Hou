@@ -1,0 +1,6 @@
+[2024-07-12T09:32:04] [INFO] Capacity=0.30, lambda=1.0, class=tree_d4
+[2024-07-12T09:32:09] [INFO] Invitations issued: 4286/14286
+[2024-07-12T09:32:16] [INFO] Subgroup share (underrep): invited=0.34 vs cohort=0.28
+[2024-07-12T09:32:25] [INFO] SDR pre-audit=0.73, target>=0.65 passed
+[2024-07-12T09:32:29] [INFO] Drift sentinel KL(baseline||current)=0.041 (within 0.10 band)
+[2024-07-12T09:32:38] [INFO] Audit signed off by [REDACTED]

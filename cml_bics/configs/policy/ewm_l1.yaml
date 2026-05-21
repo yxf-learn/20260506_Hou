@@ -1,0 +1,7 @@
+policy_class: tree
+depth: 4
+min_leaf: 50
+lambda_equity: 1.0
+budget_share: 0.4
+disadvantaged_indicator: W_L_indicator
+cost_field: cost_eur
